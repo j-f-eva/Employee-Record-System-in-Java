@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecordsystemfx.FXMLDocumentController">
+   <children>
+      <Polygon fill="#c9cc0e" layoutX="552.0" layoutY="559.0" points="-184.0, -258.0, 56.0, 40.0, 56.0, -183.0" stroke="#f2eded" strokeType="INSIDE" />
+      <Polygon fill="#c9cc0e" layoutX="542.0" layoutY="182.0" points="-174.0, 120.0, 66.0, 39.0, 66.0, -182.0" stroke="#f5ebeb" strokeType="INSIDE" />
+      <Polygon fill="#c9cc0e" layoutX="107.0" layoutY="436.0" points="-107.0, 164.0, 111.0, -134.0, -107.0, -59.0" stroke="#f8f6f6" strokeType="INSIDE" />
+      <Polygon fill="#c9cc0e" layoutX="124.0" layoutY="181.0" points="-124.0, 37.0, 94.0, 121.0, -124.0, -181.0" stroke="#f8f4f4" strokeType="INSIDE" />
+      <Label layoutX="33.0" layoutY="64.0" text="Welcome to Employee Record System" textFill="#0d8d16">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="newEmployeeBtn" defaultButton="true" layoutX="218.0" layoutY="211.0" mnemonicParsing="false" onAction="#newEmployee" prefHeight="60.0" prefWidth="150.0" text="New Employee" textFill="#f426acd6">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchEmployeeBtn" defaultButton="true" layoutX="218.0" layoutY="294.0" mnemonicParsing="false" onAction="#searchEmployee" prefHeight="60.0" prefWidth="150.0" text="Search Employee" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="showEmployeeBtn" defaultButton="true" layoutX="218.0" layoutY="457.0" mnemonicParsing="false" onAction="#showEmployee" prefHeight="60.0" prefWidth="150.0" text="Show Employee" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Button fx:id="SalaryIncreseBtn" defaultButton="true" layoutX="218.0" layoutY="376.0" mnemonicParsing="false" onAction="#SalaryIncrese" prefHeight="60.0" prefWidth="150.0" text="Salary Increment" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font></Button>
+      <Label layoutX="199.0" layoutY="137.0" text="Click Any Button" textFill="#ee611a">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

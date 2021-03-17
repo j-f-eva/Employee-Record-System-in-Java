@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.PointLight?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeerecordsystemfx.FXMLNewEmployeeController">
+   <children>
+      <Polygon fill="#c3c6c9" layoutX="308.0" layoutY="147.0" points="-308.0, 114.0, -308.0, 179.0, 291.0, -144.0" stroke="#f5f2f2" strokeType="INSIDE" />
+      <Polygon fill="#c3c6c9" layoutX="432.0" layoutY="486.0" points="-432.0, -160.0, 189.0, 100.0, -432.0, -223.0" stroke="#f5f3f3" strokeType="INSIDE" />
+      <Label layoutX="162.0" layoutY="42.0" text="Choose Your Option" textFill="#7135b2" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="HourlyEmployeeBtn" defaultButton="true" layoutX="72.0" layoutY="253.0" mnemonicParsing="false" onAction="#newHourlyEmployee" prefHeight="45.0" prefWidth="100.0" text="Press" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="204.0" layoutY="192.0" text="Salaried Employee" textFill="#0b8625">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="262.0" text="Hourly Employee" textFill="#0b8625">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="336.0" text="Comission Employee" textFill="#0b8625">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="SalariedEmployeeBtn" defaultButton="true" layoutX="71.0" layoutY="187.0" mnemonicParsing="false" onAction="#newSalariedEmployee" prefHeight="45.0" prefWidth="100.0" text="Press" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="EmployeeBackBtn" defaultButton="true" layoutX="71.0" layoutY="506.0" mnemonicParsing="false" onAction="#back" prefHeight="45.0" prefWidth="100.0" text="&lt;Back" textFill="#ab4c12">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ComissionEmployeeBtn" defaultButton="true" layoutX="71.0" layoutY="326.0" mnemonicParsing="false" onAction="#newComissionEmployee" prefHeight="45.0" prefWidth="100.0" text="Press" textFill="#f426ac">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <PointLight color="CHARTREUSE" layoutX="188.0" layoutY="280.0" lightOn="true" />
+   </children>
+</AnchorPane>
